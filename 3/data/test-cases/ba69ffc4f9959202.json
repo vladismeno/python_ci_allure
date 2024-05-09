@@ -1,0 +1,188 @@
+{
+  "uid" : "ba69ffc4f9959202",
+  "name" : "test_login_passed",
+  "fullName" : "test_login#test_login_passed",
+  "historyId" : "6b0c708eccbf4233997b398240b1caad",
+  "time" : {
+    "start" : 1715295118807,
+    "stop" : 1715295120222,
+    "duration" : 1415
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_management",
+    "time" : {
+      "start" : 1715295118806,
+      "stop" : 1715295118807,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "element('xpath', '//*[@id=\"user-name\"]'): type: login",
+      "time" : {
+        "start" : 1715295120055,
+        "stop" : 1715295120119,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "element('xpath', '//*[@id=\"password\"]'): type: password",
+      "time" : {
+        "start" : 1715295120119,
+        "stop" : 1715295120162,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "element('xpath', '//*[@id=\"login-button\"]'): click",
+      "time" : {
+        "start" : 1715295120162,
+        "stop" : 1715295120207,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "element('xpath', '//*[@id=\"login_button_container\"]/div/form/h3'): should be visible",
+      "time" : {
+        "start" : 1715295120207,
+        "stop" : 1715295120222,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_management::0",
+    "time" : {
+      "start" : 1715295120223,
+      "stop" : 1715295120285,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "fv-az802-581"
+  }, {
+    "name" : "thread",
+    "value" : "2259-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "50455b4759099761",
+        "reportUrl" : "https://vladismeno.github.io/python_ci_allure/3//#testresult/50455b4759099761",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715294934583,
+          "stop" : 1715294936664,
+          "duration" : 2081
+        }
+      }, {
+        "uid" : "3f63fb7c8e61766f",
+        "reportUrl" : "https://vladismeno.github.io/python_ci_allure/2//#testresult/3f63fb7c8e61766f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715294753430,
+          "stop" : 1715294754617,
+          "duration" : 1187
+        }
+      }, {
+        "uid" : "b648983f1cba7519",
+        "reportUrl" : "https://vladismeno.github.io/python_ci_allure/2//#testresult/b648983f1cba7519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715294403590,
+          "stop" : 1715294415797,
+          "duration" : 12207
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ba69ffc4f9959202.json",
+  "parameterValues" : [ ]
+}
