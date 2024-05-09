@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ffc45dca7a6529e1",
+      "reportUrl" : "https://vladismeno.github.io/python_ci_allure/3//#testresult/ffc45dca7a6529e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1715295762815,
+        "stop" : 1715295764713,
+        "duration" : 1898
+      }
+    }, {
       "uid" : "ba69ffc4f9959202",
       "reportUrl" : "https://vladismeno.github.io/python_ci_allure/3//#testresult/ba69ffc4f9959202",
       "status" : "passed",

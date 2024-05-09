@@ -3,6 +3,13 @@
   "reportUrl" : "https://vladismeno.github.io/python_ci_allure/3/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 1898
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://vladismeno.github.io/python_ci_allure/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 1415
   }
 }, {
