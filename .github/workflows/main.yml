@@ -13,9 +13,6 @@ jobs:
       with:
         python-version: "3.11"
 
-    - name: Install Git
-      run: sudo apt-get update && sudo apt-get install git -y
-
     - name: install requirements
       run: |
        pip install -r requirements.txt
